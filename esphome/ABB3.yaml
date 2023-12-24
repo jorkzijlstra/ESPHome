@@ -153,4 +153,3 @@ sensor:
     entity_category: diagnostic
     unit_of_measurement: "imp/kWh"
     skip_updates: 60
-    

@@ -93,7 +93,6 @@ sensor:
   # 6 ABB2 Info Rate
   - platform: modbus_controller
     modbus_controller_id: ABB2
-    id: rated_voltage
     name: "ABB2 Rated Voltage"
     address: 0x040C
     register_type: holding
@@ -106,7 +105,6 @@ sensor:
     - multiply: 0.1
   - platform: modbus_controller
     modbus_controller_id: ABB2
-    id: rated_current
     name: "ABB2 Rated Current"
     address: 0x040E
     register_type: holding
@@ -119,7 +117,6 @@ sensor:
     - multiply: 0.01
   - platform: modbus_controller
     modbus_controller_id: ABB2
-    id: maximum_current
     name: "ABB2 Maximum Current"
     address: 0x0411
     register_type: holding
@@ -132,7 +129,6 @@ sensor:
     - multiply: 0.01
   - platform: modbus_controller
     modbus_controller_id: ABB2
-    id: rated_frequency
     name: "ABB2 Rated Frequency"
     address: 0x0410
     register_type: holding
@@ -145,7 +141,6 @@ sensor:
     - multiply: 0.01
   - platform: modbus_controller
     modbus_controller_id: ABB2
-    id: active_pulse_constant
     name: "ABB2 Active pulse constant"
     address: 0x0413
     register_type: holding

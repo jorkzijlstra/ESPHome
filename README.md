@@ -55,7 +55,6 @@ template:
         unique_id: "DeltaT"
   - sensor:
       - name: realtime_afgifte
-        unit_of_measurement: " "
         unique_id: "Realtime_Afgifte"
         state: >
           {% set deltat = states('sensor.deltat') | float %}
@@ -66,7 +65,6 @@ template:
           {% endif %}
   - sensor:
       - name: realtime_cop
-        unit_of_measurement: " "
         unique_id: "Realtime_COP"
         state: >
           {% set deltat = states('sensor.deltat') | float %}
